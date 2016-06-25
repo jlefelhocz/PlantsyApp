@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA2D45891D1EEA6800247E8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D45881D1EEA6800247E8B /* AppDelegate.swift */; };
+		DA2D458B1D1EEA6800247E8B /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2D458A1D1EEA6800247E8B /* art.scnassets */; };
+		DA2D458D1D1EEA6800247E8B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D458C1D1EEA6800247E8B /* GameViewController.swift */; };
+		DA2D45901D1EEA6800247E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2D458E1D1EEA6800247E8B /* Main.storyboard */; };
+		DA2D45921D1EEA6800247E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA2D45911D1EEA6800247E8B /* Assets.xcassets */; };
+		DA2D45951D1EEA6800247E8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA2D45931D1EEA6800247E8B /* LaunchScreen.storyboard */; };
+		DA2D45A01D1EEA6800247E8B /* PlantsyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D459F1D1EEA6800247E8B /* PlantsyAppTests.swift */; };
+		DA2D45AB1D1EEA6800247E8B /* PlantsyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA2D45AA1D1EEA6800247E8B /* PlantsyAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA2D459C1D1EEA6800247E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2D457D1D1EEA6800247E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2D45841D1EEA6800247E8B;
+			remoteInfo = PlantsyApp;
+		};
+		DA2D45A71D1EEA6800247E8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA2D457D1D1EEA6800247E8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA2D45841D1EEA6800247E8B;
+			remoteInfo = PlantsyApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DA2D45851D1EEA6800247E8B /* PlantsyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantsyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2D45881D1EEA6800247E8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DA2D458A1D1EEA6800247E8B /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		DA2D458C1D1EEA6800247E8B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DA2D458F1D1EEA6800247E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA2D45911D1EEA6800247E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DA2D45941D1EEA6800247E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DA2D45961D1EEA6800247E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2D459B1D1EEA6800247E8B /* PlantsyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantsyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2D459F1D1EEA6800247E8B /* PlantsyAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsyAppTests.swift; sourceTree = "<group>"; };
+		DA2D45A11D1EEA6800247E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA2D45A61D1EEA6800247E8B /* PlantsyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantsyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA2D45AA1D1EEA6800247E8B /* PlantsyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantsyAppUITests.swift; sourceTree = "<group>"; };
+		DA2D45AC1D1EEA6800247E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA2D45821D1EEA6800247E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D45981D1EEA6800247E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D45A31D1EEA6800247E8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA2D457C1D1EEA6800247E8B = {
+			isa = PBXGroup;
+			children = (
+				DA2D45871D1EEA6800247E8B /* PlantsyApp */,
+				DA2D459E1D1EEA6800247E8B /* PlantsyAppTests */,
+				DA2D45A91D1EEA6800247E8B /* PlantsyAppUITests */,
+				DA2D45861D1EEA6800247E8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA2D45861D1EEA6800247E8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D45851D1EEA6800247E8B /* PlantsyApp.app */,
+				DA2D459B1D1EEA6800247E8B /* PlantsyAppTests.xctest */,
+				DA2D45A61D1EEA6800247E8B /* PlantsyAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA2D45871D1EEA6800247E8B /* PlantsyApp */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D45881D1EEA6800247E8B /* AppDelegate.swift */,
+				DA2D458A1D1EEA6800247E8B /* art.scnassets */,
+				DA2D458C1D1EEA6800247E8B /* GameViewController.swift */,
+				DA2D458E1D1EEA6800247E8B /* Main.storyboard */,
+				DA2D45911D1EEA6800247E8B /* Assets.xcassets */,
+				DA2D45931D1EEA6800247E8B /* LaunchScreen.storyboard */,
+				DA2D45961D1EEA6800247E8B /* Info.plist */,
+			);
+			path = PlantsyApp;
+			sourceTree = "<group>";
+		};
+		DA2D459E1D1EEA6800247E8B /* PlantsyAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D459F1D1EEA6800247E8B /* PlantsyAppTests.swift */,
+				DA2D45A11D1EEA6800247E8B /* Info.plist */,
+			);
+			path = PlantsyAppTests;
+			sourceTree = "<group>";
+		};
+		DA2D45A91D1EEA6800247E8B /* PlantsyAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DA2D45AA1D1EEA6800247E8B /* PlantsyAppUITests.swift */,
+				DA2D45AC1D1EEA6800247E8B /* Info.plist */,
+			);
+			path = PlantsyAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA2D45841D1EEA6800247E8B /* PlantsyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2D45AF1D1EEA6800247E8B /* Build configuration list for PBXNativeTarget "PlantsyApp" */;
+			buildPhases = (
+				DA2D45811D1EEA6800247E8B /* Sources */,
+				DA2D45821D1EEA6800247E8B /* Frameworks */,
+				DA2D45831D1EEA6800247E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlantsyApp;
+			productName = PlantsyApp;
+			productReference = DA2D45851D1EEA6800247E8B /* PlantsyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA2D459A1D1EEA6800247E8B /* PlantsyAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2D45B21D1EEA6800247E8B /* Build configuration list for PBXNativeTarget "PlantsyAppTests" */;
+			buildPhases = (
+				DA2D45971D1EEA6800247E8B /* Sources */,
+				DA2D45981D1EEA6800247E8B /* Frameworks */,
+				DA2D45991D1EEA6800247E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2D459D1D1EEA6800247E8B /* PBXTargetDependency */,
+			);
+			name = PlantsyAppTests;
+			productName = PlantsyAppTests;
+			productReference = DA2D459B1D1EEA6800247E8B /* PlantsyAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA2D45A51D1EEA6800247E8B /* PlantsyAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA2D45B51D1EEA6800247E8B /* Build configuration list for PBXNativeTarget "PlantsyAppUITests" */;
+			buildPhases = (
+				DA2D45A21D1EEA6800247E8B /* Sources */,
+				DA2D45A31D1EEA6800247E8B /* Frameworks */,
+				DA2D45A41D1EEA6800247E8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA2D45A81D1EEA6800247E8B /* PBXTargetDependency */,
+			);
+			name = PlantsyAppUITests;
+			productName = PlantsyAppUITests;
+			productReference = DA2D45A61D1EEA6800247E8B /* PlantsyAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA2D457D1D1EEA6800247E8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Plantsy;
+				TargetAttributes = {
+					DA2D45841D1EEA6800247E8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8754G88NFP;
+					};
+					DA2D459A1D1EEA6800247E8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8754G88NFP;
+						TestTargetID = DA2D45841D1EEA6800247E8B;
+					};
+					DA2D45A51D1EEA6800247E8B = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8754G88NFP;
+						TestTargetID = DA2D45841D1EEA6800247E8B;
+					};
+				};
+			};
+			buildConfigurationList = DA2D45801D1EEA6800247E8B /* Build configuration list for PBXProject "PlantsyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA2D457C1D1EEA6800247E8B;
+			productRefGroup = DA2D45861D1EEA6800247E8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA2D45841D1EEA6800247E8B /* PlantsyApp */,
+				DA2D459A1D1EEA6800247E8B /* PlantsyAppTests */,
+				DA2D45A51D1EEA6800247E8B /* PlantsyAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA2D45831D1EEA6800247E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2D458B1D1EEA6800247E8B /* art.scnassets in Resources */,
+				DA2D45951D1EEA6800247E8B /* LaunchScreen.storyboard in Resources */,
+				DA2D45921D1EEA6800247E8B /* Assets.xcassets in Resources */,
+				DA2D45901D1EEA6800247E8B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D45991D1EEA6800247E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D45A41D1EEA6800247E8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA2D45811D1EEA6800247E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2D458D1D1EEA6800247E8B /* GameViewController.swift in Sources */,
+				DA2D45891D1EEA6800247E8B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D45971D1EEA6800247E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2D45A01D1EEA6800247E8B /* PlantsyAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA2D45A21D1EEA6800247E8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA2D45AB1D1EEA6800247E8B /* PlantsyAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA2D459D1D1EEA6800247E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2D45841D1EEA6800247E8B /* PlantsyApp */;
+			targetProxy = DA2D459C1D1EEA6800247E8B /* PBXContainerItemProxy */;
+		};
+		DA2D45A81D1EEA6800247E8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA2D45841D1EEA6800247E8B /* PlantsyApp */;
+			targetProxy = DA2D45A71D1EEA6800247E8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA2D458E1D1EEA6800247E8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2D458F1D1EEA6800247E8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA2D45931D1EEA6800247E8B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA2D45941D1EEA6800247E8B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA2D45AD1D1EEA6800247E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA2D45AE1D1EEA6800247E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA2D45B01D1EEA6800247E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlantsyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Plantsy.PlantsyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DA2D45B11D1EEA6800247E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PlantsyApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Plantsy.PlantsyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DA2D45B31D1EEA6800247E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PlantsyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Plantsy.PlantsyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantsyApp.app/PlantsyApp";
+			};
+			name = Debug;
+		};
+		DA2D45B41D1EEA6800247E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlantsyAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Plantsy.PlantsyAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlantsyApp.app/PlantsyApp";
+			};
+			name = Release;
+		};
+		DA2D45B61D1EEA6800247E8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = PlantsyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Plantsy.PlantsyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlantsyApp;
+			};
+			name = Debug;
+		};
+		DA2D45B71D1EEA6800247E8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlantsyAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Plantsy.PlantsyAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlantsyApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA2D45801D1EEA6800247E8B /* Build configuration list for PBXProject "PlantsyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2D45AD1D1EEA6800247E8B /* Debug */,
+				DA2D45AE1D1EEA6800247E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA2D45AF1D1EEA6800247E8B /* Build configuration list for PBXNativeTarget "PlantsyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2D45B01D1EEA6800247E8B /* Debug */,
+				DA2D45B11D1EEA6800247E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA2D45B21D1EEA6800247E8B /* Build configuration list for PBXNativeTarget "PlantsyAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2D45B31D1EEA6800247E8B /* Debug */,
+				DA2D45B41D1EEA6800247E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DA2D45B51D1EEA6800247E8B /* Build configuration list for PBXNativeTarget "PlantsyAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA2D45B61D1EEA6800247E8B /* Debug */,
+				DA2D45B71D1EEA6800247E8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA2D457D1D1EEA6800247E8B /* Project object */;
+}
