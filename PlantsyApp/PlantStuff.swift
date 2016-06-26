@@ -14,12 +14,6 @@ import UIKit
 
     var whichPlant = 0
 
-    var Clevel = 1
-    var Wlevel = 1
-    var Tlevel = 1
-    var Slevel = 1
-    var Mlevel = 1
-
     let sceneD = SCNScene(named: "Dead.scn")!
     let sceneC1 = SCNScene(named: "Cactussee.scn")!
     let sceneC2 = SCNScene(named: "Cactussdl.scn")!

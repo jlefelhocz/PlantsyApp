@@ -34,13 +34,14 @@ class CareViewController: UIViewController {
         
         if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2) {
             focus.level = 2
+            sunTrack.progress = 0.0
         }
         if(focus.slevel >= 3 && focus.wlevel >= 3 && focus.flevel >= 3) {
             focus.level = 3
+            sunTrack.progress = 0.0
         }
 
         if(checkUpgrade(focus) == true) {
-            sunTrack.progress = 0.0
             focus.sunshinevalue = 0
 
         }
@@ -53,13 +54,14 @@ class CareViewController: UIViewController {
        
         if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2) {
             focus.level = 2
+            WatTrack.progress = 0.0
         }
         if(focus.slevel >= 3 && focus.wlevel >= 3 && focus.flevel >= 3) {
             focus.level = 3
+            WatTrack.progress = 0.0
         }
         
         if(checkUpgrade(focus) == true) {
-            WatTrack.progress = 0.0
             focus.watervalue = 0
         }
     }
@@ -71,13 +73,14 @@ class CareViewController: UIViewController {
         
         if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2) {
             focus.level = 2
+            fertTrack.progress = 0.0
         }
         if(focus.slevel >= 3 && focus.wlevel >= 3 && focus.flevel >= 3) {
             focus.level = 3
+            fertTrack.progress = 0.0
         }
         
         if(checkUpgrade(focus) == true) {
-            fertTrack.progress = 0.0
             focus.fertilizervalue = 0
         }
         
