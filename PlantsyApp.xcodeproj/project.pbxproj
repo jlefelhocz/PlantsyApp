@@ -25,7 +25,6 @@
 		DA3097B21D1F0D9C00F4D8DA /* PlantStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3097B11D1F0D9C00F4D8DA /* PlantStuff.swift */; };
 		DA3097B81D1F25ED00F4D8DA /* cactusbaby.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3097B71D1F25ED00F4D8DA /* cactusbaby.dae */; };
 		DA3097BE1D1F26D200F4D8DA /* Cactussdl.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA3097BD1D1F26D200F4D8DA /* Cactussdl.scn */; };
-		DA3097C21D1F27FA00F4D8DA /* burnt.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3097C11D1F27F900F4D8DA /* burnt.png */; };
 		DA3097C81D1F2AE100F4D8DA /* cactusseed.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3097C71D1F2AE100F4D8DA /* cactusseed.dae */; };
 		DA3097CA1D1F2AF000F4D8DA /* Cactussee.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA3097C91D1F2AF000F4D8DA /* Cactussee.scn */; };
 		DA3097CC1D1F2B5F00F4D8DA /* cactusseed1.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3097CB1D1F2B5F00F4D8DA /* cactusseed1.dae */; };
@@ -55,6 +54,7 @@
 		DA3097FF1D1F430700F4D8DA /* mists.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA3097FE1D1F430700F4D8DA /* mists.scn */; };
 		DA3098011D1F431200F4D8DA /* mistsl.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA3098001D1F431200F4D8DA /* mistsl.scn */; };
 		DA3098031D1F458D00F4D8DA /* cactusbaby1.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3098021D1F458D00F4D8DA /* cactusbaby1.dae */; };
+		DA3098051D1F8E2400F4D8DA /* burntGrass.png in Resources */ = {isa = PBXBuildFile; fileRef = DA3098041D1F8E2400F4D8DA /* burntGrass.png */; };
 		DA6E97C51D1EEF6E00452296 /* blank.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA6E97C41D1EEF6E00452296 /* blank.scn */; };
 		DA6E97C71D1EEFC600452296 /* Cactus.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA6E97C61D1EEFC600452296 /* Cactus.scn */; };
 		DA6E97C91D1EEFEF00452296 /* greenfade.png in Resources */ = {isa = PBXBuildFile; fileRef = DA6E97C81D1EEFEF00452296 /* greenfade.png */; };
@@ -115,7 +115,6 @@
 		DA3097B11D1F0D9C00F4D8DA /* PlantStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantStuff.swift; sourceTree = "<group>"; };
 		DA3097B71D1F25ED00F4D8DA /* cactusbaby.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = cactusbaby.dae; path = ../../../Downloads/cactusbaby.dae; sourceTree = "<group>"; };
 		DA3097BD1D1F26D200F4D8DA /* Cactussdl.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cactussdl.scn; sourceTree = "<group>"; };
-		DA3097C11D1F27F900F4D8DA /* burnt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = burnt.png; path = ../../../Downloads/burnt.png; sourceTree = "<group>"; };
 		DA3097C71D1F2AE100F4D8DA /* cactusseed.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = cactusseed.dae; path = ../../../Downloads/cactusseed.dae; sourceTree = "<group>"; };
 		DA3097C91D1F2AF000F4D8DA /* Cactussee.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cactussee.scn; sourceTree = "<group>"; };
 		DA3097CB1D1F2B5F00F4D8DA /* cactusseed1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = cactusseed1.dae; sourceTree = "<group>"; };
@@ -145,6 +144,7 @@
 		DA3097FE1D1F430700F4D8DA /* mists.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mists.scn; sourceTree = "<group>"; };
 		DA3098001D1F431200F4D8DA /* mistsl.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = mistsl.scn; sourceTree = "<group>"; };
 		DA3098021D1F458D00F4D8DA /* cactusbaby1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = cactusbaby1.dae; sourceTree = "<group>"; };
+		DA3098041D1F8E2400F4D8DA /* burntGrass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burntGrass.png; sourceTree = "<group>"; };
 		DA6E97C41D1EEF6E00452296 /* blank.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = blank.scn; sourceTree = "<group>"; };
 		DA6E97C61D1EEFC600452296 /* Cactus.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cactus.scn; sourceTree = "<group>"; };
 		DA6E97C81D1EEFEF00452296 /* greenfade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenfade.png; sourceTree = "<group>"; };
@@ -327,11 +327,11 @@
 				DAD243DE1D1EFA13001DFAA7 /* mulch.png */,
 				DAD243D81D1EF860001DFAA7 /* deadgrass.png */,
 				DA3097A71D1EFDD800F4D8DA /* doghair.png */,
-				DA3097C11D1F27F900F4D8DA /* burnt.png */,
 				DA3097E81D1F3EC900F4D8DA /* hive.png */,
 				DA3097EA1D1F3EDB00F4D8DA /* skin.png */,
 				DA3097EC1D1F3FCA00F4D8DA /* leaf.png */,
 				DA3097EE1D1F404400F4D8DA /* grass.png */,
+				DA3098041D1F8E2400F4D8DA /* burntGrass.png */,
 				DA3097F61D1F429900F4D8DA /* snow.png */,
 				DA3097F81D1F42A700F4D8DA /* purple.png */,
 				DA3097FA1D1F42D600F4D8DA /* mars.png */,
@@ -471,6 +471,7 @@
 				DA3097E11D1F3E7A00F4D8DA /* candelabraseed.dae in Resources */,
 				DA3097A41D1EFDA600F4D8DA /* waterwheelseed.dae in Resources */,
 				DA3097E71D1F3EAE00F4D8DA /* Treese.scn in Resources */,
+				DA3098051D1F8E2400F4D8DA /* burntGrass.png in Resources */,
 				DA6E97D41D1EF5C000452296 /* hexon.png in Resources */,
 				DA6E97C91D1EEFEF00452296 /* greenfade.png in Resources */,
 				DA3097F51D1F426200F4D8DA /* loveinamistseedling.dae in Resources */,
@@ -517,7 +518,6 @@
 				DAD243D91D1EF860001DFAA7 /* deadgrass.png in Resources */,
 				DA3097C81D1F2AE100F4D8DA /* cactusseed.dae in Resources */,
 				DA6E97D81D1EF63000452296 /* stem.png in Resources */,
-				DA3097C21D1F27FA00F4D8DA /* burnt.png in Resources */,
 				DA3097F31D1F425D00F4D8DA /* loveinamistseed.dae in Resources */,
 				DA3098011D1F431200F4D8DA /* mistsl.scn in Resources */,
 				DA6E97C71D1EEFC600452296 /* Cactus.scn in Resources */,
