@@ -27,8 +27,24 @@ class GameViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+      
+        if (whichPlant == 1) {
+            focus = Ucactus
+        } else if (whichPlant == 2) {
+            focus = Uwaterwheel
+        } else if (whichPlant == 3) {
+            focus = Ucandelebra
+        } else if (whichPlant == 4) {
+            focus = Uinlandsedge
+        } else if (whichPlant == 5) {
+            focus = Ulove
+        } else {
+            choice = dead
+        }
+
         
-        choosePlant(whichPlant)
+        choosePlant(whichPlant, that: focus)
+        print(focus.level)
 
         // create and add a camera to the scene
         let cameraNode = SCNNode()

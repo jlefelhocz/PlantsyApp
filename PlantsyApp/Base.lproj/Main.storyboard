@@ -285,6 +285,9 @@
                                     <constraint firstAttribute="height" constant="64" id="h1X-sx-Sfi"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="Fertilizer"/>
+                                <connections>
+                                    <action selector="FertButton:" destination="bpI-Ts-B8T" eventType="touchUpInside" id="1wO-lm-Sp9"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zd0-6h-Y7I">
                                 <rect key="frame" x="18" y="439" width="65" height="64"/>
@@ -295,6 +298,9 @@
                                 <state key="normal" backgroundImage="Sunshine">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="SunButton:" destination="bpI-Ts-B8T" eventType="touchUpInside" id="jLx-nj-ry4"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8nb-sf-h1P">
                                 <rect key="frame" x="129" y="439" width="63" height="64"/>
@@ -303,6 +309,9 @@
                                     <constraint firstAttribute="width" constant="63" id="qVZ-fn-0Je"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="Water"/>
+                                <connections>
+                                    <action selector="WatButton:" destination="bpI-Ts-B8T" eventType="touchUpInside" id="M5W-r9-lAN"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rarity" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xTk-5x-Rji">
                                 <rect key="frame" x="156" y="231" width="148" height="28"/>
@@ -334,17 +343,17 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="f8X-B1-Os1">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="f8X-B1-Os1">
                                 <rect key="frame" x="115" y="299" width="170" height="2"/>
                                 <color key="progressTintColor" red="0.94665404040404044" green="0.91201070038823118" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="trackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="EBg-ZG-bQa">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="EBg-ZG-bQa">
                                 <rect key="frame" x="115" y="335" width="170" height="2"/>
                                 <color key="progressTintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="trackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </progressView>
-                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="ewV-kc-qhA">
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ewV-kc-qhA">
                                 <rect key="frame" x="115" y="371" width="170" height="2"/>
                                 <color key="progressTintColor" red="0.34013967803030298" green="0.13110924550790318" blue="0.015118764694296186" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="trackTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
