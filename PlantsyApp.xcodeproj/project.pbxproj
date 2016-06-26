@@ -23,9 +23,7 @@
 		DA3097AE1D1F004600F4D8DA /* PlantsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3097AD1D1F004600F4D8DA /* PlantsViewController.swift */; };
 		DA3097B01D1F044400F4D8DA /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA3097AF1D1F044400F4D8DA /* CoreMotion.framework */; };
 		DA3097B21D1F0D9C00F4D8DA /* PlantStuff.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3097B11D1F0D9C00F4D8DA /* PlantStuff.swift */; };
-		DA3097B81D1F25ED00F4D8DA /* cactusbaby.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3097B71D1F25ED00F4D8DA /* cactusbaby.dae */; };
 		DA3097BE1D1F26D200F4D8DA /* Cactussdl.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA3097BD1D1F26D200F4D8DA /* Cactussdl.scn */; };
-		DA3097C81D1F2AE100F4D8DA /* cactusseed.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3097C71D1F2AE100F4D8DA /* cactusseed.dae */; };
 		DA3097CA1D1F2AF000F4D8DA /* Cactussee.scn in Resources */ = {isa = PBXBuildFile; fileRef = DA3097C91D1F2AF000F4D8DA /* Cactussee.scn */; };
 		DA3097CC1D1F2B5F00F4D8DA /* cactusseed1.dae in Resources */ = {isa = PBXBuildFile; fileRef = DA3097CB1D1F2B5F00F4D8DA /* cactusseed1.dae */; };
 		DA3097CE1D1F2BDE00F4D8DA /* ProvideCare.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3097CD1D1F2BDE00F4D8DA /* ProvideCare.swift */; };
@@ -113,9 +111,7 @@
 		DA3097AD1D1F004600F4D8DA /* PlantsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantsViewController.swift; sourceTree = "<group>"; };
 		DA3097AF1D1F044400F4D8DA /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		DA3097B11D1F0D9C00F4D8DA /* PlantStuff.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlantStuff.swift; sourceTree = "<group>"; };
-		DA3097B71D1F25ED00F4D8DA /* cactusbaby.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = cactusbaby.dae; path = ../../../Downloads/cactusbaby.dae; sourceTree = "<group>"; };
 		DA3097BD1D1F26D200F4D8DA /* Cactussdl.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cactussdl.scn; sourceTree = "<group>"; };
-		DA3097C71D1F2AE100F4D8DA /* cactusseed.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; name = cactusseed.dae; path = ../../../Downloads/cactusseed.dae; sourceTree = "<group>"; };
 		DA3097C91D1F2AF000F4D8DA /* Cactussee.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Cactussee.scn; sourceTree = "<group>"; };
 		DA3097CB1D1F2B5F00F4D8DA /* cactusseed1.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = cactusseed1.dae; sourceTree = "<group>"; };
 		DA3097CD1D1F2BDE00F4D8DA /* ProvideCare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProvideCare.swift; sourceTree = "<group>"; };
@@ -296,8 +292,6 @@
 				DA6E97C61D1EEFC600452296 /* Cactus.scn */,
 				DA6E97CA1D1EF07800452296 /* cactus (1).dae */,
 				DA3098021D1F458D00F4D8DA /* cactusbaby1.dae */,
-				DA3097B71D1F25ED00F4D8DA /* cactusbaby.dae */,
-				DA3097C71D1F2AE100F4D8DA /* cactusseed.dae */,
 				DA3097CB1D1F2B5F00F4D8DA /* cactusseed1.dae */,
 			);
 			name = Cactus;
@@ -507,7 +501,6 @@
 				DA3097E31D1F3E9500F4D8DA /* Tree.scn in Resources */,
 				DA2D45901D1EEA6800247E8B /* Main.storyboard in Resources */,
 				DA3097CA1D1F2AF000F4D8DA /* Cactussee.scn in Resources */,
-				DA3097B81D1F25ED00F4D8DA /* cactusbaby.dae in Resources */,
 				DA3097ED1D1F3FCA00F4D8DA /* leaf.png in Resources */,
 				DA3097EF1D1F404400F4D8DA /* grass.png in Resources */,
 				DA3097FF1D1F430700F4D8DA /* mists.scn in Resources */,
@@ -516,7 +509,6 @@
 				DA3097D31D1F3B1B00F4D8DA /* inlandsedgeseedling.dae in Resources */,
 				DAD243DB1D1EF872001DFAA7 /* petal.png in Resources */,
 				DAD243D91D1EF860001DFAA7 /* deadgrass.png in Resources */,
-				DA3097C81D1F2AE100F4D8DA /* cactusseed.dae in Resources */,
 				DA6E97D81D1EF63000452296 /* stem.png in Resources */,
 				DA3097F31D1F425D00F4D8DA /* loveinamistseed.dae in Resources */,
 				DA3098011D1F431200F4D8DA /* mistsl.scn in Resources */,
