@@ -9,19 +9,31 @@
 import UIKit
 import QuartzCore
 import SceneKit
+import CoreMotion
 
 class GameViewController: UIViewController {
+    
+    override func canBecomeFirstResponder() -> Bool {
+        return true
+    }
+    
+    override func motionEnded(motion: UIEventSubtype, withEvent event: UIEvent?) {
+        if motion == .MotionShake {
+            let storyBoard : UIStoryboard = UIStoryboard(name: "Main", bundle:nil)
+            let PViewController = storyBoard.instantiateViewControllerWithIdentifier("ResultView")
+            self.presentViewController(PViewController, animated: true, completion: nil)
+        }
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        // create a new scene
-        let scene = SCNScene(named: "art.scnassets/ship.scn")!
-        
+        choosePlant(whichPlant)
+
         // create and add a camera to the scene
         let cameraNode = SCNNode()
         cameraNode.camera = SCNCamera()
-        scene.rootNode.addChildNode(cameraNode)
+        LiveScene.rootNode.addChildNode(cameraNode)
         
         // place the camera
         cameraNode.position = SCNVector3(x: 0, y: 0, z: 15)
@@ -31,26 +43,20 @@ class GameViewController: UIViewController {
         lightNode.light = SCNLight()
         lightNode.light!.type = SCNLightTypeOmni
         lightNode.position = SCNVector3(x: 0, y: 10, z: 10)
-        scene.rootNode.addChildNode(lightNode)
+        LiveScene.rootNode.addChildNode(lightNode)
         
         // create and add an ambient light to the scene
         let ambientLightNode = SCNNode()
         ambientLightNode.light = SCNLight()
         ambientLightNode.light!.type = SCNLightTypeAmbient
         ambientLightNode.light!.color = UIColor.darkGrayColor()
-        scene.rootNode.addChildNode(ambientLightNode)
-        
-        // retrieve the ship node
-        let ship = scene.rootNode.childNodeWithName("ship", recursively: true)!
-        
-        // animate the 3d object
-        ship.runAction(SCNAction.repeatActionForever(SCNAction.rotateByX(0, y: 2, z: 0, duration: 1)))
+        LiveScene.rootNode.addChildNode(ambientLightNode)
         
         // retrieve the SCNView
         let scnView = self.view as! SCNView
         
         // set the scene to the view
-        scnView.scene = scene
+        scnView.scene = LiveScene
         
         // allows the user to manipulate the camera
         scnView.allowsCameraControl = true
