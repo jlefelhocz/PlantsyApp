@@ -32,7 +32,7 @@ class CareViewController: UIViewController {
         focus.sunshinevalue += 0.05
         sunTrack.progress = focus.sunshinevalue
         
-        if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2) {
+        if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2 && focus.slevel <= 3 && focus.wlevel <= 3 && focus.flevel <= 3 ) {
             focus.level = 2
             sunTrack.progress = 0.0
         }
@@ -52,10 +52,11 @@ class CareViewController: UIViewController {
         focus.watervalue += 0.05
         WatTrack.progress = focus.watervalue
        
-        if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2) {
+        if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2 && focus.slevel <= 3 && focus.wlevel <= 3 && focus.flevel <= 3 ) {
             focus.level = 2
-            WatTrack.progress = 0.0
+            sunTrack.progress = 0.0
         }
+
         if(focus.slevel >= 3 && focus.wlevel >= 3 && focus.flevel >= 3) {
             focus.level = 3
             WatTrack.progress = 0.0
@@ -71,10 +72,11 @@ class CareViewController: UIViewController {
         focus.fertilizervalue += 0.05
         fertTrack.progress = focus.fertilizervalue
         
-        if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2) {
+        if(focus.slevel >= 2 && focus.wlevel >= 2 && focus.flevel >= 2 && focus.slevel <= 3 && focus.wlevel <= 3 && focus.flevel <= 3 ) {
             focus.level = 2
-            fertTrack.progress = 0.0
+            sunTrack.progress = 0.0
         }
+
         if(focus.slevel >= 3 && focus.wlevel >= 3 && focus.flevel >= 3) {
             focus.level = 3
             fertTrack.progress = 0.0
