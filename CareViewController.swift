@@ -17,7 +17,11 @@ class CareViewController: UIViewController {
     @IBOutlet var BiomeI: UIImageView!
     @IBOutlet var RatingI: UIImageView!
     @IBOutlet var LevelI: UIImageView!
+    @IBOutlet var PRarity: UILabel!
     
+    @IBOutlet var sunTrack: UIProgressView!
+    @IBOutlet var WatTrack: UIProgressView!
+    @IBOutlet var fertTrack: UIProgressView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,6 +33,7 @@ class CareViewController: UIViewController {
         cactus.fertilizervalue = 5
         cactus.about = "The Sonora Barrel Cactus can be as tall as 8 feet.  It has very few spines on its crosshatched ridges.  However, there are very long flat central spines.  The Barrel Cactus is a succulent and flowers in July and august."
         cactus.rating = "1"
+        cactus.rarity = "Common"
         cactus.biome = "Desert"
         
         
@@ -39,6 +44,7 @@ class CareViewController: UIViewController {
         waterwheel.fertilizervalue = 2
         waterwheel.about = "Taldrovanda vesiculosa is a carnivorous plant that captures and digests underwater invertebrates. This is one of few plant species capable of rapid movement. It is a  floating plant found in shallow water with lots of sunlight. "
         waterwheel.rating = "3"
+        waterwheel.rarity = "Extraordinary"
         waterwheel.biome = "Aquatic"
         
         let inlandsedge = Plants()
@@ -48,6 +54,7 @@ class CareViewController: UIViewController {
         inlandsedge.fertilizervalue = 4
         inlandsedge.about = "Carex Interior grows in wet habitats and produces clumps on the stem with a few leaves.  Its maximum height is 1 meter.   The sedge lives in the tundra so it does very well in cold temperatures. "
         inlandsedge.rating = "2"
+        inlandsedge.rarity = "Rare"
         inlandsedge.biome = "Tundra"
         
         let candelebra = Plants()
@@ -57,6 +64,7 @@ class CareViewController: UIViewController {
         candelebra.fertilizervalue = 4
         candelebra.about = "Euphorbia Candelebrum is a beautiful but poisonous tree.  If the sap will blister skin if it comes in contact.  The sap is also blinding if it gets in eyes.  Even breathing the fumes can be harmful."
         candelebra.rating = "2"
+        candelebra.rarity = "Rare"
         candelebra.biome = "Grassland"
         
         let love = Plants()
@@ -66,6 +74,7 @@ class CareViewController: UIViewController {
         love.fertilizervalue = 4
         love.about = "Nigella Damascena is a flowering plant that flowers annually.  .The flowers are typically bright blue to very pale blue, but sometimes may be white, pink, or lavender.  Love-in-a-mist is found in mainly in the forest biome."
         love.rating = "1"
+        love.rarity = "Common"
         love.biome = "Forest"
         
         let dead = Plants()
@@ -90,6 +99,7 @@ class CareViewController: UIViewController {
         PAbout.text = choice.about
         BiomeI.image = UIImage(named: choice.biome)
         RatingI.image = UIImage(named: choice.rating)
+        PRarity.text = choice.rarity
         
         
     }

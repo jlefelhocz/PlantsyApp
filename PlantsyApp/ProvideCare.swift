@@ -18,7 +18,13 @@ class Plants {
     var fertilizervalue : Int = 0
     var about : String = " ."
     var rating : String = ""
+    var rarity : String = ""
     var biome : String = "."
+    var level: Int = 1
+    var slevel: Int = 1
+    var wlevel: Int = 1
+    var flevel: Int = 1
+    
     
 }
 

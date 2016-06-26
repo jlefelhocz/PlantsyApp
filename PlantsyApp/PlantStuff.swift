@@ -39,6 +39,55 @@ import UIKit
 
     var LiveScene = sceneD
 
+func incSun(thing: Plants) {
+    thing.sunshinevalue += 1
+    
+    if(thing.sunshinevalue >= 10) {
+        thing.sunshinevalue == 0
+        thing.slevel += 1
+    }
+}
+
+func incWater(thing: Plants) {
+    thing.watervalue += 1
+    
+    if(thing.watervalue >= 10) {
+        thing.watervalue == 0
+        thing.wlevel += 1
+    }
+}
+
+func incFert(thing: Plants) {
+    thing.fertilizervalue += 1
+    
+    if(thing.fertilizervalue >= 10) {
+        thing.fertilizervalue == 0
+        thing.flevel += 1
+    }
+}
+
+func checkUpgrade(thing: Plants) -> Bool {
+    if(thing.slevel == 2 && thing.wlevel == 2 && thing.flevel == 2) {
+        thing.level == 2
+        return true
+    }
+    if(thing.slevel == 3 && thing.wlevel == 3 && thing.flevel == 3) {
+        thing.level == 3
+        return true
+    }
+    return false
+}
+
+
+
+
+
+
+
+
+
+
+
 func choosePlant(Plant: Int) {
     if(Plant == 1) {
         if(Clevel == 1) {
