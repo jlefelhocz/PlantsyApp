@@ -1,0 +1,3 @@
+# PlantsyApp
+
+<p>Plantsy is an app to teach and engage children about preserving the environment. Children will buy recycled plastic trading cards that will come to life in the Plantsy app. Children scan the cards, and view their new seed in a 3D world. They have to take care of the seedling, and then they get to watch it grow into a beautiful plant. The Plantsy team recognizes one of the most important global communities is often left voiceless. Despite a growing concern for the environment, humanity still has a lot of work to do. Plantsy aims to teach children to take care of the Earth while providing a fun game to share with friends. It brings a new dimension to apps by providing a more realistic, 3D experience.</p>
